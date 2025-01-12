@@ -11,23 +11,36 @@
       background-position: center top;
       background-size: auto; 
       margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+    }
+    .download, .features {
+      flex: 1;
+      text-align: center;
     }
     .download {
-  margin: auto;
-  width: 75%;
-}  
+      margin-right: 20px;
+    }
     .features {
-  margin: auto;
-  width: 25%;
-}
+      margin-left: 20px;
+    }
   </style>
 </head>
 <body>
-<div class="download">
-  <h1">Download</h1>
-</div>    
-<div class="features">
-  <h1>Features</h1>
-</div>
+  <div class="container">
+    <div class="download">
+      <h1>Download</h1>
+    </div>
+    <div class="features">
+      <h1>Features</h1>
+    </div>
+  </div>
 </body>
 </html>
