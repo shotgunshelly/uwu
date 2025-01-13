@@ -19,7 +19,7 @@
     .container {
       display: flex;
       justify-content: space-between;
-      width: 60%;
+      width: 40%;
     }
     .download, .features {
       flex: 1;
@@ -35,13 +35,21 @@
       color:  #1356db;
       border-color: #9900d2;
     }
+    .download:hover a.nav-link {
+      color: #1356db;
+      text-decoration: none;
+    }
     .features {
       margin-left: 20px;
       color:  #9900d2;
       border: 5px solid #1356db;
       border-radius: 25px;
     }
-    .features:hover {
+    .features:hover a.nav-link {      
+      color: #1356db;
+      text-decoration: none;
+    }
+      .features:hover {
       color:  #1356db;
       border-color: #9900d2;
     }
